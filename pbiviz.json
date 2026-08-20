@@ -1,26 +1,28 @@
 {
-  "visual": {
-    "name": "FFLEXANA",
-    "displayName": "FFLEXANA",
-    "guid": "fflexana_341c9f89559c404783e05f191247f92d",
-    "visualClassName": "DataLakeTables",
-    "version": "1.0.0.1",
-    "description": "Analytical grouped table with pivoting, drill-down, conditional formatting, and governed exports.",
-    "supportUrl": "https://www.skibaanalytics.com/support",
-    "gitHubUrl": "https://github.com/muhumuza684/KIBA-powerbi-visuals"
-  },
-  "apiVersion": "5.3.0",
-  "author": {
-    "name": "Data Lake Visual Family",
-    "email": "hello@datalakevisuals.example"
-  },
-  "assets": {
-    "icon": "assets/icon.png"
-  },
-  "externalJS": [],
-  "style": "style/visual.less",
-  "capabilities": "capabilities.json",
-  "stringResources": [
-    "stringResources/en-US/resources.resjson"
-  ]
+    "visual":  {
+                   "name":  "FFLEXANA",
+                   "displayName":  "Data Lake Pivot Analytics",
+                   "guid":  "fflexana_341c9f89559c404783e05f191247f92d",
+                   "visualClassName":  "DataLakeTables",
+                   "version":  "1.0.0.1",
+                   "description":  "Grouped analytical pivot table with drill-down, subtotals, conditional formatting, saved layouts, and governed exports.",
+                   "supportUrl":  "https://www.skibaanalytics.com/support",
+                   "gitHubUrl":  "https://github.com/muhumuza684/KIBA-powerbi-visuals"
+               },
+    "apiVersion":  "5.3.0",
+    "author":  {
+                   "name":  "Data Lake Visual Family",
+                   "email":  "hello@datalakevisuals.example"
+               },
+    "assets":  {
+                   "icon":  "assets/icon.png"
+               },
+    "externalJS":  [
+
+                   ],
+    "style":  "style/visual.less",
+    "capabilities":  "capabilities.json",
+    "stringResources":  [
+                            "stringResources/en-US/resources.resjson"
+                        ]
 }
