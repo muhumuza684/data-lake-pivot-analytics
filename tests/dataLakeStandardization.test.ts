@@ -9,7 +9,7 @@ describe("FFLEXANA standardization", () => {
 
     test("uses the FFLEXANA identity", () => {
         expect(String(pbiviz.visual.name)).toBe("FFLEXANA");
-        expect(String(pbiviz.visual.displayName)).toBe("FFLEXANA");
+        expect(String(pbiviz.visual.displayName)).toBe("Data Lake Pivot Analytics");
         expect(renderer).toContain("FFLEXANA");
     });
 
